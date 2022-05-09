@@ -1,0 +1,15 @@
+.footer {
+  padding-left: 88px;
+  .vertical-divider {
+    width: 0;
+    height: 12px;
+    margin: 0 0.45rem;
+    overflow: hidden;
+    border-left: 1px solid black;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    padding-left: 0px;
+  }
+}

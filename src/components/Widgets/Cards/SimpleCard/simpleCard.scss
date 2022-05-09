@@ -1,0 +1,23 @@
+.card {
+  border: none;
+  .avatar-lg {
+    height: 4.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-soft-primary {
+    background-color: rgba(102, 88, 221, 0.25) !important;
+  }
+  .border {
+    border: 1px solid #dee2e6 !important;
+  }
+  .border-primary {
+    border-color: #6658dd !important;
+  }
+  .font-22 {
+    font-size: 22px !important;
+  }
+}

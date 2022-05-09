@@ -1,0 +1,29 @@
+/* GLOBAL */
+.app {
+  background-color: #f5f6f8;
+}
+.content-page {
+  padding-top: 70px;
+  padding-left: 88px;
+  transition: all 0.5s ease;
+}
+.content-page-toggle {
+  padding-top: 70px;
+  padding-left: 240px;
+  transition: all 0.5s ease;
+}
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* MEDIA */
+@media (max-width: 768px) {
+  .content-page {
+    padding-left: 0px;
+  }
+  .content-page-toggle {
+    padding-left: 0px;
+  }
+}

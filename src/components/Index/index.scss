@@ -1,0 +1,23 @@
+.index {
+  background-color: #f5f6f8;
+  height: 75vh;
+  .vertical-divider {
+    width: 0;
+    margin: 0 0.45rem;
+    overflow: hidden;
+    border-left: 1px solid black;
+  }
+  .tab-content {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .form-control:focus {
+    box-shadow: none;
+  }
+  .btn:focus {
+    box-shadow: none;
+  }
+  .form-check-input:focus {
+    box-shadow: none;
+  }
+}
